@@ -1,0 +1,7 @@
+.calc-col(@attribute, @columns:12, @columnGutter:0, @offset:0, @area:100%, @totalColumns:12, @outsideGutter:false, @wrapper:false){
+    @calc-value: calc-col(@columns, @columnGutter, @offset, @area, @totalColumns, @outsideGutter, @wrapper);
+    @{attribute}: ~'calc(@{calc-value})';
+    @{attribute}: ~'-moz-calc(@{calc-value})';
+    @{attribute}: ~'-webkit-calc(@{calc-value})';
+    @{attribute}: ~'-o-calc(@{calc-value})';
+}

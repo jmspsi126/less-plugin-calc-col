@@ -1,0 +1,11 @@
+{
+  "name": "less-plugin-calc-col",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "less": ">=2.0.0"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
